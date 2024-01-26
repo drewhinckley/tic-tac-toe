@@ -20,9 +20,9 @@ let currentPlayer = playerOneState;
 
 let gameState = ["", "", "", "", "", "", "", "", ""];
 
-const winningMessage = () => `"${currentPlayer}" won!`;
+const winningMessage = () => `"${currentPlayer}" WON!!`;
 const drawMessage = () => `Game ended in a draw!`;
-const currentPlayerTurn = () => `"${currentPlayer}" go already`;
+const currentPlayerTurn = () => `"${currentPlayer}" GO ALREADY!!`;
 
 statusDisplay.innerHTML = currentPlayerTurn() || "";
 
