@@ -65,6 +65,7 @@ function handleResultValidation() {
       break;
     }
   }
+
   if (roundWon) {
     statusDisplay.innerHTML = winningMessage();
     gameActive = false;

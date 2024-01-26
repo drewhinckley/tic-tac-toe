@@ -23,6 +23,7 @@ section {
   background-color: rgb(217, 216, 216);
   padding: 10px;
   border-radius: 50px;
+  position: relative;
 }
 
 #game-container-box {
@@ -55,4 +56,33 @@ section {
 
 .game--status {
   margin-top: 30px;
+
+  animation-name: status-keyframes;
+  animation-duration: 1s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-delay: 0s;
+}
+
+#game-status-box {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(237, 237, 237);
+}
+
+@keyframes status-keyframes {
+  from {
+    color: red;
+    font-size: 30px;
+  }
+  50% {
+    color: rgb(123, 0, 0);
+    font-size: 20px;
+  }
+
+  to {
+    color: red;
+    font-size: 30px;
+  }
 }
