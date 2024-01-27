@@ -74,15 +74,15 @@ section {
 @keyframes status-keyframes {
   from {
     color: red;
-    font-size: 30px;
+    font-size: 28px;
   }
   50% {
     color: rgb(123, 0, 0);
-    font-size: 20px;
+    font-size: 27px;
   }
 
   to {
     color: red;
-    font-size: 30px;
+    font-size: 28px;
   }
 }
